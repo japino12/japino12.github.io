@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+
+.menu-icono{
+    position: absolute;
+    width: 130px;
+    height:120px;
+    left: 140px;
+    top: 49px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Inicio{
+position: absolute;
+width: 144px;
+height: 63px;
+left: 452px;
+top: 86px;
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 43px;
+color: #000;
+}
+
+.Nosotros{
+
+position: absolute;
+width: 278px;
+height: 63px;   
+left: 577px;
+top: 86px;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.Productos{
+
+position: absolute;
+width: 278px;
+height: 63px;
+left: 754px;
+top: 86px;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.Contacto{
+
+position: absolute;
+width: 278px;
+height: 63px;
+left: 948px;
+top: 86px;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 43px;
+
+color: #000000;
+}
+
+#distribuidora{
+   
+
+    position: absolute;
+
+    height: 19px;
+    left: 140px;
+    top: 299px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    color: #000000;
+
+
+}
+
+#mejorescarnes{
+
+    position: absolute;
+    width: 524px;
+    height: 361px;
+    left: 140px;
+    top: 300px;
+
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 85px;
+
+    color: #000000;
+
+
+}
+
+#carnesfrias{
+position: absolute;
+width: 491px;
+height: 45px;
+left: 140px;
+top: 586px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+
+.tuboton{
+    display: inline-block;
+    background-color: #E30613;
+    padding: 15px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 158px;
+    top: 654px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Koulen';
+}
+
+.img-carnes{
+position: absolute;
+width: 660px;
+height: 370px;
+left: 780px;
+top: 295px;
+
+background: url(images/carnes_frias.jpg);
+border-radius: 103px;
+}
+
+#nosotros{
+position: absolute;
+left: 453px;
+top: 759px;
+display: grid;
+align-items: center;
+justify-content: center;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 116.53%;
+
+
+color: #000000;
+
+}
+
+.nosotros-texto{
+position: absolute;
+width: 1104px;
+height: 358px;
+flex-shrink: 0;
+top: 930px;
+left: 250px;
+
+color: #000;
+font-family: 'Work Sans';
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 116.528%;
+}
+
+.nosotros-texto br{
+    margin-bottom: 20px;
+}
+
+.nosotros-texto2{
+    position: absolute;
+width: 1104px;
+height: 358px;
+flex-shrink: 0;
+top: 1040px;
+left: 250px;
+
+color: #000;
+font-family: 'Work Sans';
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 116.528%
+}
+
+.nosotros-texto3{
+    position: absolute;
+width: 1104px;
+height: 358px;
+flex-shrink: 0;
+top: 1150px;
+left: 250px;
+
+color: #000;
+font-family: 'Work Sans';
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 116.528%
+}
+
+.pro{
+position: absolute;
+
+left: 300px;
+top: 1275px;
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 116.53%;
+color: #000000;
+}
+
+.img-producto{
+    position: absolute;
+    top: 1480px;
+    left: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.produc{
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .250);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Koulen';
+}
+
+.produc h4{
+    font-weight: 500;
+}
+
+.contacto{
+    position: absolute;
+    top: 2400px;
+    left: 670px;
+    font-family: 'Koulen';
+    font-size: 60px;
+}
+
+.compra{
+    position: absolute;
+    top: 2500px;
+    left: 510px;
+    font-family: 'Work Sans';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.compra1{
+    position: absolute;
+    top: 2535px;
+    left: 480px;
+    font-family: 'Work Sans';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contac{
+    position: absolute;
+    top: 2650px;
+    left: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conta{
+    margin-right: 200px;
+}
+
+.correo{
+    display: flex;
+    align-items: center;
+}
+
+.correo i{
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.correo h5{
+    font-family: 'Work Sans';
+    font-size: 15px;
+}
+
+footer{
+    position: absolute;
+    top: 2800px;
+    left: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 90px;
+}
+
+.distri{
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 500;
+}
